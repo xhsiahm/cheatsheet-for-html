@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<head>
+    <!-- Below is the title of your web page. -->
+    <title>HTML Cheat Sheet</title> 
+</head>
+<body>
+<!-- Headings -->
+<h1>Heading One</h1>
+<h2>Heading Two</h2>
+<h3>Heading Three</h3>
+<h4>Heading Four</h4>
+<h5>Heading Five</h5>
+<h6>Heading Six</h6>
+
+<!-- Paragraph -->
+
+<!-- The <Strong> command makes text bold -->
+
+<p>
+     <strong>Cats are wonderful companions known for their
+     playful antics and loving nature. They delight in
+      chasing after toys, curling up in cozy spots, and giving 
+      gentle head nudges to show affection.Their soothing purrs 
+      can be incredibly relaxing, making them ideal pets for 
+      unwinding after a long day.</strong>
+    </p>
+      
+       <!-- the <em> command makes text ittalic -->
+
+      <p> 
+        <em>Dogs are loyal and playful companions. They enjoy
+         fetching toys, going on walks, and snuggling up with
+          their owners. Whether they're learning a new trick or
+           simply being by your side, dogs bring joy and 
+           comfort to any home.</em>
+         </p>
+           
+           <!-- <a href="" command can turn a text into a link -->
+           <!-- the command target="_blank" will open a new tab when the link is clicked -->
+
+           <p>
+                Turtles are reptiles with protective shells, living in oceans, rivers, and on 
+            land; they eat <a href="https://google.com" target="_blank">plants,</a> insects, and small fish, and can live over 100 years,
+             often returning to the same beaches to lay their eggs.
+            </p>
+
+            <!-- Lists -->
+           
+            <!--the command <li> adds items to you list-->
+
+            <!-- the command <ul> creates an unordered list. -->
+
+                <ul>
+                    <li>List Item 1</li>
+                    <li>List Item 2</li>
+                    <li>List Item 3</li>
+                    <li>List Item 4</li>
+                </ul>
+            <!-- the command <ol> creates an ordered list. -->
+
+                <ol>
+                    <li>List Item 1</li>
+                    <li>List Item 2</li>
+                    <li>List Item 3</li>
+                    <li>List Item 4</li>
+                </ol>
+
+                <!-- Tables -->
+
+                <!-- Tables have a lot of diffrent commands when it comes to HTML -->
+
+                <!-- The command <table> creates a table -->
+                <!-- The command <thead> creates a heading for the table -->
+                <!-- The command <tr> creates a table row  -->   
+                <!-- The command <th> creates a table header -->
+                <!-- The command <td> creates a table data box -->
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Age</th>
+                        </tr> 
+                    </thead>
+                   
+                    <tbody>
+                
+                    <tr>
+                        <td>Camden Crowley</td>
+                        <td>camdencrow2011@gmail.com</td>
+                        <td>14</td>
+                    </tr>
+                   
+                    <tr>
+                        <td>John Doe</td>
+                        <td>John.Doe@gmail.com</td>
+                        <td>21</td>
+                    </tr>
+                   
+                    <tr>
+                        <td>Vallerie Crystal</td>
+                        <td>VallerieCrystal123@gmail.com</td>
+                        <td>44</td>
+                    </tr>
+
+                  </tbody>        
+                   </table>
+
+               
+                 
+
+
+                   <!-- Forms --> 
+
+                    
+                   <!-- <form> creates the form container -->
+
+                   <!-- <div> groups elements together -->
+
+                   <!-- <label> defines a label for an input -->
+
+                   <!-- <input type="text"> creates a text input field -->
+
+                   <!-- placeholder sets a hint for the input -->
+
+                   <!-- <input type="email"> creates an email input field -->
+
+                   <!-- <textarea> creates a multi-line text input -->
+
+                   <!-- <select> creates a dropdown menu -->
+
+                   <!-- <option> defines a choice in the dropdown -->
+
+                   <!-- <input type="number"> creates a number input field -->
+
+                   <!-- <input type="date"> creates a date input field -->
+
+                   <!-- <input type="submit"> creates a submit button -->
+                    
+                   <!-- The command <br> creates a break in the line. -->
+                  
+                   <!-- The <hr> command creates a horizontal rule (line) to seperate sections. -->
+                   
+                   <!-- This is just another break to seperate some more. -->
+                  
+
+                    
+                   <form>
+
+                    <div>
+                      <label>First Name</label>
+                      <input type="text" name="firstName"
+                      placeholder="Enter first name">
+                    
+                    </div>
+                    <br>
+                    <div>
+
+                      <label>Last Name</label>
+                      <input type="text" name="lastName"
+                      placeholder="Enter last name">
+                    </div>
+                    <br>
+                    <div>
+
+                      <label>Email</label>
+                      <input type="email" name="email"
+                      placeholder="Enter email">
+                    </div>
+                    <br>
+                    <div>
+
+                        <label>Message</label>
+                     <textarea name="message" 
+                     placeholder="Enter message"></textarea>
+
+                    </div>
+                    <br>
+                    <div>
+                        <label>Gender</label>
+                        <select name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <br>
+                        <div>
+                            <label>Age:</label>
+                            <input type="number" name="age" value = "30">
+                        </div>
+                        <br>
+                        <div>
+                            <label>Birthday</label>
+                            <input type="date" name="birthday">
+                        </div>
+                        <br>
+                        <input type="submit" name="submit"
+                        value="Submit">
+
+                    </form>
+
+                    <!-- Buttons -->
+
+                    <!-- Buttons need Javascript to work dont worry abt that right now -->
+
+                     <button>Click Me</button>
+
+                     <!-- Images -->
+                    
+                     <!-- you can use an image link or you can use an image from
+                       your files. First, create a new folder on your Windows
+                        computer by opening File Explorer and navigating to your
+                         desired location. Right-click to create a new folder and
+                          name it "MyProject." Next, open Visual Studio Code and
+                           select "Open Folder" from the File menu to open the
+                            "MyProject" folder. Create a new file named index.html
+                             in Visual Studio Code and write your HTML code inside
+                              it. Save the file with Ctrl + S. Then, find the
+                               photo.jpg image on your computer and move it to the 
+                               "MyProject" folder. Ensure both index.html and
+                                photo.jpg are in the same folder. Finally, open the 
+                                "MyProject" folder in File Explorer, right-click on
+                                 index.html, and select "Open with" > "Google
+                                  Chrome" (or your preferred browser) to display
+                                   your web page with the image. -->
+
+                                   <!-- <img> tag is used to embed an image in the webpage -->
+                                   
+                                   <!-- src="URL" sets the URL of the image -->
+                                 
+                                   <!-- alt="My Sample Image" provides alternative text if the image cannot be displayed -->
+                                 
+                                   <!-- width="200" sets the width of the image to 200 pixels -->
+                                 
+                                   <!-- height="150" sets the height of the image to 150 pixels -->
+                   
+                                  <!-- <a href" turns the image into a link so when you click it opens the photo and target="_blank" so it opens in a new tab-->
+                                  
+                                  <!-- This break was to move the image to below the "Click Me" Button -->
+                     <br>
+
+                     <a href="https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg" target="_blank">
+
+                     <img src="https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg" alt="My Sample Image"
+                     width="200" height="150">
+                     </a>
+
+                   
+                     <!-- Quotations -->
+
+                     <!-- <blockquote> defines a quoted section -->
+                     
+                     <!-- cite specifies the source URL for the quote -->
+
+                     <!-- <abbr> defines an abbreviation -->
+                     
+                    <!-- title provides the full form of the abbreviation -->
+
+                    <!-- <cite> defines the title of a work -->
+
+
+
+                     <blockquote cite="http://traversymedia.com">
+                        Birds are diverse creatures known for their ability to fly.
+                         They have lightweight bodies, hollow bones, and come in 
+                         various shapes, sizes, and colors. Birds play essential
+                          roles in ecosystems, such as pollinating plants and 
+                          controlling insects. Their songs and calls are
+                           beautiful and complex, adding to their charm.
+
+                     </blockquote>
+                     
+                     <p>The <abbr title="World Wide Web">WWW </abbr>is awesome</p>
+
+                     <p><cite>HTML crash course</cite> by Xhsiahm</p>
+
+
+
+                     
+            
+                  
+               
+                </body>
+             </html>
